@@ -5,6 +5,7 @@ BeatStep is a device full of features but I was frustrated that there was no bui
 It was a disappointment to not being able to fully utilise the BeatStep. I derived the files in this repository from two of the built-in Arturia mappings. I removed a lot of the existing lua code and functions which didn't seem useful for the BeatStep. 
 
 ### Currenty supported functions (```CNTRL``` mode)
+- Autodetect is supported, no more manual adding your BeatStep to Reason
 - ```Start``` and ```Play``` buttons can control Reason
 - ```Volume``` knob controls the Master Volume
 - All the knobs can be mapped to Reason
