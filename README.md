@@ -17,6 +17,9 @@ It was a disappointment to not being able to fully utilise the BeatStep. I deriv
 
 I tried to keep the Arturia naming for knobs as much as I can though I am open to any new naming suggestions. Currently knobs are named as below. Probably you won't see those names unless you are experimenting with the ```.remotemap``` file.
 
+## Usage
+You can follow any of the Reason standard codec/remotemap installation steps. This is generally copying the folders into ```Remote``` directory under Reason installation or data folders depending on your OS.
+
 ### Knob Names
 1)  preset	
 2)	cut
