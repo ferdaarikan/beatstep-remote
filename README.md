@@ -37,4 +37,5 @@ You can follow any of the Reason standard codec/remotemap installation steps. Th
 14)	delay
 15)	sus1
 16)	rel1
-Volume) volume
+    
+Volume: volume
