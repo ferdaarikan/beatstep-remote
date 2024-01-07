@@ -1,0 +1,2345 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Arturia
+Control Surface Model	BeatStep
+Map Version	1.0.3
+
+//This is a remote map template for the Arturia BeatStep Keyboard and Reason 12
+
+Scope	Propellerheads	Master Keyboard			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard
+Map	Pitch bend		Pitch Bend
+Map	Mod Wheel		Mod Wheel
+Map	Damper Pedal		Damper Pedal
+
+
+Scope	Propellerheads	Reason Master Section
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+
+Map	channel		Remote Base Channel Delta
+
+Map	fader1		Channel 1 Level			
+Map	fader4		Channel 1 Pan
+Map	fader2		Channel 1 FX1 Send Level
+Map	fader3		Channel 1 FX2 Send Level	
+Map	encoder1 		Channel 1 C Ratio
+Map	encoder2		Channel 1 C Threshold	
+Map	encoder3		Channel 1 HMF Gain
+Map	encoder5		Channel 1 HMF Frequency
+Map	encoder6		Channel 1 HMF Q
+Map	encoder4		Channel 1 LMF Gain
+Map	encoder7		Channel 1 LMF Frequency
+Map	encoder8		Channel 1 LMF Q
+Map	lcd-1		"Mixer Console"
+Map	lcd-2		Channel 1 Channel Name
+
+Scope	Propellerheads	Reason Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	stop		Stop		
+Map	play		Play		
+Map	record		Record		
+Map	rew		Rewind		
+Map	fwd		Fast Forward		
+Map	loop		Loop On/Off
+Map	metro		Click On/Off		
+Map	taptempo		Tap Tempo
+Map	tempo		Tempo BPM		
+Map	bar		Bar Position
+Map	beat		Beat Position		
+Map	channel		Target Track (Delta)
+Map	songPos		Song Position
+Map	preset		Select Patch for Target Device (Delta)
+Map	lcd-1		"No remote control"
+Map	lcd-2		"Not a MIDI track"
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"		
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"		
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+
+
+Scope	Propellerheads	Combinator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 36
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		Rotary 1		
+Map	encoder2		Rotary 2		
+Map	encoder3		Rotary 3		
+Map	encoder4		Rotary 4
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+
+Map	lcd-1		"Combinator"
+Map	lcd-2		Patch Name	
+		
+
+
+Scope	Propellerheads	Mixer 14:2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 46
+
+
+Map	fader1		Channel 1 Level			
+Map	fader2		Channel 2 Level			
+Map	fader3		Channel 3 Level			
+Map	fader4		Channel 4 Level			
+			
+
+Map	encoder1		Channel 1 Pan			
+Map	encoder2		Channel 2 Pan			
+Map	encoder3		Channel 3 Pan			
+Map	encoder4		Channel 4 Pan					
+Map	encoder5		Channel 5 Pan
+Map	encoder6		Channel 6 Pan
+Map	encoder7		Channel 7 Pan				
+		
+Map	lcd-1		"Mixer 14:2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	Line Mixer 6:2			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 67			
+
+
+Map	fader1		Channel 1 Level			
+Map	fader2		Channel 2 Level			
+Map	fader3		Channel 3 Level			
+Map	fader4		Channel 4 Level			
+
+Map	encoder1		Channel 1 Pan			
+Map	encoder2		Channel 2 Pan			
+Map	encoder3		Channel 3 Pan			
+Map	encoder4		Channel 4 Pan					
+Map	encoder5		Channel 5 Pan
+Map	encoder6		Channel 6 Pan
+Map	encoder7		"Not mapped"
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Mixer 6:2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	ID8 Instrument Device			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 91
+
+Map	encoder1		Parameter 1
+Map	encoder2		Parameter 2
+Map	encoder3		"Not mapped"
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"
+Map	encoder6		"Not mapped"
+Map	encoder7		"Not mapped"
+Map	encoder8		"Not mapped"
+
+Map	fader1		"Not mapped"		
+Map	fader2		"Not mapped"		
+Map	fader3		"Not mapped"		
+Map	fader4		Volume
+
+Map	preset		Preset
+
+Map	lcd-1		"ID8"
+Map	lcd-2		Sound
+
+
+
+Scope	Propellerheads	SubTractor Analog Synthesizer		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		Amp Env Attack
+Map	fader2		Amp Env Decay
+Map	fader3		Amp Env Sustain		
+Map	fader4		Amp Env Release
+
+Map	encoder5		LFO1 Dest
+Map	encoder6		Osc Mix
+Map	encoder8		Mod Env Gain
+
+Map	lcd-1		"SubTractor"
+Map	lcd-2		Patch Name
+
+Map	volume		Master Level
+
+Map	atk1		Filter Env Attack	
+Map	dec1		Filter Env Decay		
+Map	sus1		Filter Env Sustain		
+Map	rel1		Filter Env Release
+
+Map	cut		Filter Freq			
+Map	reso		Filter Res			
+
+Map	param1		Filter Env Amount
+Map	param2		Filter Type		
+	
+Map	param3		Osc1 Wave			
+Map	param4		Osc2 Wave
+
+Map	lforate		LFO1 Rate			
+Map	lfoamt		LFO1 Amount			
+	
+Map	chorus		Osc1 Phase Diff
+Map	delay		Osc2 Phase Diff
+
+
+Scope	Propellerheads	Thor Polysonic Synthesizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line 129
+
+
+Map	fader1		Amp Env Attack		
+Map	fader2		Amp Env Decay
+Map	fader3		Amp Env Sustain		
+Map	fader4		Amp Env Release
+	
+
+Map	encoder3		Rotary 1
+Map	encoder4		Rotary 2					
+
+Map	lcd-1		"Thor"
+Map	lcd-2		Patch Name
+
+Map	volume		Master Level
+
+Map	cut		Filter 1 Freq
+Map	reso		Filter 1 Res
+Map	param1		Filter 2 Freq	
+Map	param2		Filter 2 Res
+Map	param3		Filter 3 Freq		
+Map	param4		Filter 3 Res
+
+Map	atk1		Filter Env Attack		
+Map	dec1		Filter Env Decay	
+Map	sus1		Filter Env Sustain		
+Map	rel1		Filter Env Release		
+
+Map	lforate		LFO 1 Rate
+Map	lfoamt		LFO 2 Rate
+Map	chorus		Chorus Dry Wet		
+Map	delay		Delay dry wet
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 163
+Map	cut		Filter A Freq		
+Map	reso		Filter A Resonance
+Map	param1		Filter B Freq	
+Map	param2		Filter B Resonance
+
+Map	atk1		Filter Env Attack		
+Map	dec1		Filter Env Decay	
+Map	sus1		Filter Env Sustain		
+Map	rel1		Filter Env Release
+		
+Map	param3		Filter Env Amount							
+Map	param4		Shaper Amount			
+		
+Map	volume		Master Level	
+	
+Map	Chorus		Oscillator A Shift		
+Map	Delay		Oscillator B Shift	
+
+Map	lforate		Modulator A Rate		
+Map	lfoamt		Modulator A To Pitch		
+
+
+Scope	Propellerhead Software	se.propellerheads.Europa		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	volume		Master Level
+
+Map	cut		Filter 1 Freq
+Map	reso		Filter 1 Res
+Map	param1		Filter 2 Freq	
+Map	param2		Filter 2 Res
+Map	param3		Filter 3 Freq		
+Map	param4		Filter 3 Res
+
+Map	atk1		Filter Env Attack		
+Map	dec1		Filter Env Decay	
+Map	sus1		Filter Env Sustain		
+Map	rel1		Filter Env Release		
+
+Map	fader1		Amp Attack		
+Map	fader2		Amp Decay
+Map	fader3		Amp Sustain		
+Map	fader4		Amp Release								
+
+Map	encoder1		Osc1 Shape	
+Map	encoder2		Osc1 Semi
+Map	encoder3		Osc1 Filter Freq	
+Map	encoder4		Osc1 Filter Reso	
+Map	encoder5		Filter Freq
+Map	encoder6		Filter Reso
+Map	encoder7		Osc1 Harm Pos
+Map	encoder8		Osc1 Harm Amt
+
+Map	lcd-1		"Europa"
+Map	lcd-2		Patch Name
+
+
+Scope	Propellerhead Software	se.propellerheads.Mimic		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		Amp Attack 1
+Map	fader2		Amp Decay 1
+Map	fader3		Amp Sustain 1
+Map	fader4		Amp Release 1
+
+Map	encoder1		Filter Freq 1
+Map	encoder2		Filter Reso 1
+Map	encoder3		Start Pos 1
+Map	encoder4		End Pos 1
+Map	encoder5		Amp Gain 1
+Map	encoder6		Stretch Speed 1
+Map	encoder7		Reverse 1 
+Map	encoder8		Effect Mix 1 
+
+Map	lcd-1		"Mimic"
+Map	lcd-2		Patch Name
+
+
+Scope	Propellerheads	NN19 Digital Sampler	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 192
+
+
+Map	fader1		Amp Env Attack		
+Map	fader2		Amp Env Decay
+Map	fader3		Amp Env Sustain		
+Map	fader4		Amp Env Release
+
+
+Map	encoder1		Filter Freq	
+Map	encoder2		Filter Res
+Map	encoder3		LFO Rate
+Map	encoder4		LFO Amount	
+Map	encoder5		LFO Wave
+Map	encoder6		LFO Dest	
+Map	encoder7		Osc Semitone	
+Map	encoder8		Sample Start
+
+Map	lcd-1		"NN19"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	NN-XT Advanced Sampler			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		External Controller
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		Filter Freq
+Map	encoder2		Filter Res	
+Map	encoder3		External Controller Source
+Map	encoder4		High Quality Interpolation
+
+Map	encoder5		Amp Env Attack
+Map	encoder6		Amp Env Decay
+Map	encoder7		Amp Env Release	
+Map	encoder8		Mod Env Decay
+
+Map	lcd-1		"NN-XT"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Dr.REX Loop Player			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 236
+
+
+Map	fader1		Amp Env Attack		
+Map	fader2		Amp Env Decay
+Map	fader3		Amp Env Sustain		
+Map	fader4		Amp Env Release				
+
+
+Map	encoder1		Filter Freq	
+Map	encoder2		Filter Res						
+Map	encoder3		LFO1 Rate
+Map	encoder4		LFO1 Amount
+Map	encoder5		LFO1 Wave
+Map	encoder6		LFO1 Dest
+Map	encoder7		Transpose
+Map	encoder8		Filter Mode
+
+Map	lcd-1		"Dr.REX"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Redrum Drum Computer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line273 
+
+
+Map	fader1		Drum 9 Level
+Map	fader2		Drum 10 Level
+Map	fader3		Bank Select
+Map	fader4		Master Level
+
+
+Map	encoder1		Drum 1 Level
+Map	encoder2		Drum 2 Level
+Map	encoder3		Drum 3 Level
+Map	encoder4		Drum 4 Level
+Map	encoder5		Drum 5 Level
+Map	encoder6		Drum 6 Level
+Map	encoder7		Drum 7 Level
+Map	encoder8		Drum 8 Level
+
+Map	lcd-1		"Redrum"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Kong Drum Designer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 300
+
+
+Map	fader1		Drum 1 Level
+Map	fader2		Drum 2 Level
+Map	fader3		Drum 3 Level
+Map	fader4		Drum 4 Level
+
+Map	encoder1		Drum 9 Level
+Map	encoder2		Drum 10 Level
+Map	encoder3		Drum 11 Level
+Map	encoder4		Drum 12 Level
+Map	encoder5		Drum 5 Level
+Map	encoder6		Drum 6 Level
+Map	encoder7		Drum 7 Level
+Map	encoder8		Drum 8 Level
+
+Map	lcd-1		"Kong"
+Map	lcd-2		Patch Name
+
+
+Scope	Propellerhead Software	se.propellerheads.DMFC			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 300
+
+
+Map	fader1		Master_Distortion
+Map	fader2		Master_Delay
+Map	fader3		Master_Reverb
+Map	fader4		Master_Volume
+
+Map	encoder1		Drum_1_Volume
+Map	encoder2		Drum_2_Volume
+Map	encoder3		Drum_3_Volume
+Map	encoder4		Drum_4_Volume
+Map	encoder5		Drum_5_Volume
+Map	encoder6		Drum_6_Volume
+Map	encoder7		Drum_7_Volume
+Map	encoder8		Drum_8_Volume
+
+Map	lcd-1		"Rytmik"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	RV7000 Advanced Reverb			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 342
+
+Map	fader1		Decay
+Map	fader2		HF Damp
+Map	fader3		Hi EQ
+Map	fader4		Dry/Wet
+
+
+Map	encoder1		Soft Knob 1
+Map	encoder2		Soft Knob 2
+Map	encoder3		Soft Knob 3
+Map	encoder4		Soft Knob 4
+Map	encoder5		Soft Knob 5
+Map	encoder6		Soft Knob 6
+Map	encoder7		Soft Knob 7
+Map	encoder8		Soft Knob 8
+
+Map	lcd-1		"RV7000"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Scream 4 Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//  Line 361
+
+
+Map	encoder1		Damage Control		
+Map	encoder2		Damage Type
+Map	encoder3		Parameter 1		
+Map	encoder4		Parameter 2	
+Map	encoder5		Body Resonance			
+Map	encoder6		Body Scale		
+Map	encoder7		Body Auto
+Map	encoder8		Body Type
+
+Map	fader1		Cut Lo	
+Map	fader2		Cut Mid
+Map	fader3		Cut Hi
+Map	fader4		Master Level
+
+Map	lcd-1		"Scream"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	BV512 Digital Vocoder		
+		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 386 
+
+Map	encoder1		Band Count
+Map	encoder2		Vocoder/Equalizer
+Map	encoder3		Hold
+Map	encoder4		Shift
+Map	encoder5		Attack
+Map	encoder6		Decay			
+Map	encoder7		HF Emphasis			
+Map	encoder8		Dry/Wet		
+
+Map	fader1		Band Level 1			
+Map	fader2		Band Level 2			
+Map	fader3		Band Level 3			
+Map	fader4		Band Level 4
+
+Map	lcd-1		"BV512"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	MClass Equalizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Line420 
+
+Map	encoder1		Low Shelf Frequency
+Map	encoder2		Parametric 1 Frequency
+Map	encoder3		Parametric 2 Frequency
+Map	encoder4		Hi Shelf Frequency
+Map	encoder5		Low Shelf Q
+Map	encoder6		Parametric 1 Q
+Map	encoder7		Parametric 2 Q
+Map	encoder8		Hi Shelf Q
+Map	fader1		Low Shelf Gain
+Map	fader2		Parametric 1 Gain
+Map	fader3		Parametric 2 Gain
+Map	fader4		Hi Shelf Gain
+
+
+Map	lcd-1		"MClass Equalizer"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	MClass Stereo Imager			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line 442
+
+Map	encoder1		Low Width		
+Map	encoder2		X-Over Frequency		
+Map	encoder3		High Width		
+Map	encoder8		Solo Mode
+
+Map	lcd-1		"MClass Stereo Imager"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	MClass Compressor			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line452
+Map	encoder1		Input Gain		
+Map	encoder2		Threshold		
+Map	encoder3		Ratio		
+Map	encoder4		Attack		
+Map	encoder5		Release		
+Map	encoder6		Output Gain	
+Map	encoder7		Soft Knee
+Map	encoder8		Sidechain Solo
+
+Map	lcd-1		"MClass Compressor"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	MClass Maximizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Input Gain		
+Map	encoder2		Attack Speed		
+Map	encoder3		Release Speed			
+Map	encoder4		Soft Clip Amount	
+Map	encoder5		Output Level Meter Mode
+Map	encoder6		Look Ahead Enable	
+Map	encoder7		Output Gain	
+
+Map	lcd-1		"MClass Maximizer"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	RV-7 Digital Reverb			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Algorithm		
+Map	encoder2		Size		
+Map	encoder3		Decay		
+Map	encoder4		Damping		
+Map	encoder5		Dry/Wet	
+
+Map	lcd-1		"RV-7"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	DDL-1 Digital Delay Line			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		DelayTime (steps)		
+Map	encoder2		Step Length		
+Map	encoder3		Feedback		
+Map	encoder4		Pan		
+Map	encoder5		Dry/Wet Balance	
+
+Map	lcd-1		"DDL-1"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	D-11 Foldback Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Amount		
+Map	encoder2		Foldback
+
+Map	lcd-1		"D-11"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line501
+
+Map	encoder1		Frequency		
+Map	encoder2		Resonance		
+Map	encoder3		Env Amount		
+Map	encoder4		Velocity	
+
+Map	encoder5		Attack
+Map	encoder6		Decay	
+Map	encoder7		Sustain		
+Map	encoder8		Release
+
+Map	lcd-1		"ECF-42"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	CF-101 Chorus/Flanger			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Line 517
+Map	encoder1		Delay		
+Map	encoder2		Feedback		
+Map	encoder3		Rate		
+Map	encoder4		Modulation Amount	
+
+Map	lcd-1		"CF-101"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	PH-90 Phaser			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Frequency		
+Map	encoder2		Split		
+Map	encoder3		Width		
+Map	encoder4		Rate		
+Map	encoder5		Frequency Modulation		
+Map	encoder6		Feedback
+
+Map	lcd-1		"PH-90"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	UN-16 Unison			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Voice Count		
+Map	encoder2		Detune		
+Map	encoder3		Dry/Wet	
+
+Map	lcd-1		"UN-16"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Ratio		
+Map	encoder2		Threshold		
+Map	encoder3		Attack		
+Map	encoder4		Release		
+Map	encoder5		Gain
+
+Map	lcd-1		"COMP-01"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	encoder1		Filter A Freq		
+Map	encoder2		Filter A Q		
+Map	fader1		Filter A Gain		
+Map	encoder5		Filter B Freq		
+Map	encoder6		Filter B Q		
+Map	fader2		Filter B Gain	
+
+Map	lcd-1		"PEQ-2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	Matrix Pattern Sequencer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Run
+Map	encoder2		Bank Select
+Map	encoder3		Pattern Select in Bank
+Map	encoder4		Resolution
+
+Map	lcd-1		"Matrix"
+
+
+
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line567
+
+Map	encoder1		Manual Velocity
+Map	encoder2		Mode
+Map	encoder3		Octave
+Map	encoder4		Insert
+Map	encoder5		Octave Shift
+Map	encoder6		Rate
+Map	encoder7		Gate Length
+Map	encoder8		Shuffle
+
+Map	lcd-1		"RPG-8"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerheads	Line 6 Bass Amp			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Comp Threshold		
+Map	encoder2		Drive		
+Map	encoder3		Bass		
+Map	encoder4		Lo Mid		
+Map	encoder5		Hi Mid		
+Map	encoder6		Treble	
+Map	encoder8		Volume
+
+Map	lcd-1		"Line 6 Bass"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Line 6 Guitar Amp			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line 590		
+Map	encoder1		Drive		
+Map	encoder2		Bass		
+Map	encoder3		Middle		
+Map	encoder4		Treble		
+Map	encoder5		Presence	
+Map	encoder8		Volume
+
+Map	lcd-1		"Line 6 Guitar"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Alligator		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line 605
+
+
+Map	fader1		Low Pass Env Amount		
+Map	fader2		Band Pass Env Amount
+Map	fader3		High Pass Env Amount	
+Map	fader4		Dry Volume
+
+
+Map	encoder1		Amp Env Attack		
+Map	encoder2		Amp Env Decay		
+Map	encoder3		Amp Env Release		
+Map	encoder4		LFO Waveform
+Map	encoder5		Filter Env Attack		
+Map	encoder6		Filter Env Decay	
+Map	encoder7		Filter Env Release	
+Map	encoder8		LFO Freq
+
+Map	lcd-1		"Alligator"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	The Echo			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line646
+
+Map	encoder1		Filter Frequency	
+Map	encoder2		Filter Resonance
+Map	encoder3		LFO Rate
+Map	encoder4		LFO Amount		
+Map	encoder5		Envelope
+Map	encoder6		Wobble
+Map	encoder7		Ducking
+Map	encoder8		Dry/Wet Balance
+
+Map	fader1		Delay Time		
+Map	fader2		Feedback
+Map	fader3		Drive Amount		
+Map	fader4		Ping-Pong Pan
+
+Map	lcd-1		"The Echo"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Pulveriser		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// line 671
+
+Map	encoder1		Squash	
+Map	encoder2		Dirt
+Map	encoder3		Filter Frequency
+Map	encoder4		Peak
+Map	encoder5		Release
+Map	encoder6		Tone
+Map	encoder7		Filter Mode
+Map	encoder8		Blend
+
+
+Map	fader1		Tremor to Frequency	
+Map	fader2		Tremor Rate
+Map	fader3		Follower to Frequency		
+Map	fader4		Volume
+
+
+Map	lcd-1		"Pulveriser"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerheads	Neptune Pitch Adjuster		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// 695
+
+Map	encoder1		Catch Zone
+Map	encoder2		Correction Speed	
+Map	encoder3		Preserve Expression	
+Map	encoder4		Scale Memory
+
+Map	encoder5		Vibrato rate
+Map	encoder6		Pitched Signal Level
+Map	encoder7		Voice Synth Level
+
+Map	lcd-1		"Neptune"
+Map	lcd-2		Device Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Filter_Cutoff
+Map	encoder2		Filter_Reso
+Map	encoder3		Filter_Type
+Map	encoder4		Filter_On
+Map	encoder5		Filter_Attack
+Map	encoder6		Filter_Decay
+Map	encoder7		Filter_Sustain
+Map	encoder8		Filter_Release
+
+Map	fader1		Amp_Attack
+Map	fader2		Amp_Decay
+Map	fader3		Amp_Sustain
+Map	fader4		Amp_Release
+
+Map	lcd-1		"Pangea"   
+Map	lcd-2		Patch Name
+
+
+Scope	Propellerhead Software	se.propellerheads.Klang
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Filter_Cutoff
+Map	encoder2		Filter_Reso
+Map	encoder3		Filter_Type
+Map	encoder4		Filter_On
+Map	encoder5		Filter_Attack
+Map	encoder6		Filter_Decay
+Map	encoder7		Filter_Sustain
+Map	encoder8		Filter_Release
+
+Map	fader1		Amp_Attack
+Map	fader2		Amp_Decay
+Map	fader3		Amp_Sustain
+Map	fader4		Amp_Release
+
+Map	lcd-1		"Klang"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Parsec
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		A Cutoff Freq
+Map	encoder2		A Cutoff Slope
+Map	encoder3		A Mod1 X
+Map	encoder4		A Gen X
+Map	encoder5		Balance
+Map	encoder6		Spread
+Map	encoder7		Reverb Level
+Map	encoder8		Delay DryWet
+
+Map	fader1		Amp Attack
+Map	fader2		Amp Decay
+Map	fader3		Amp Sustain
+Map	fader4		Amp Release
+
+Map	lcd-1		"Parsec"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Position
+Map	encoder2		Jitter
+Map	encoder3		Grain Length
+Map	encoder4		Speed
+Map	encoder5		End Pos
+Map	encoder6		Filter Freq
+Map	encoder7		Rate-Spacing
+Map	encoder8		Scroll
+
+Map	fader1		Amp Attack
+Map	fader2		Amp Decay
+Map	fader3		Amp Sustain
+Map	fader4		Amp Release
+
+Map	lcd-1		"Grain"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Monotone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	cut		Filter Freq
+Map	reso		Filter Reso
+Map	encoder3		Filter Drive
+Map	encoder4		Filter Env Amount
+Map	encoder5		Filter Attack
+Map	encoder6		Filter Decay
+Map	encoder7		Filter Sustain
+Map	encoder8		Filter Release
+
+Map	fader1		Amp Attack
+Map	fader2		Amp Decay
+Map	fader3		Amp Sustain
+Map	fader4		Amp Release
+
+Map	lcd-1		"Monotone"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Character
+Map	encoder2		Microphone and Instrument Blend
+Map	encoder3		Key Down Level
+Map	encoder4		Key Up Level
+Map	encoder5		Microphone 1 Type
+Map	encoder6		Microphone 2 Type
+Map	encoder7		Compression Amount
+Map	encoder8		Stereo Width
+
+Map	fader1		EQ Lo Gain
+Map	fader2		EQ Mid Gain
+Map	fader3		EQ Hi Gain
+Map	fader4		Master Volume
+
+Map	lcd-1		"Radical Piano"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Filter_Cutoff
+Map	encoder2		Filter_Reso
+Map	encoder3		Delay_Time
+Map	encoder4		Delay_Feedback
+Map	encoder5		Delay_Amount
+Map	encoder6		Reverb_Time
+Map	encoder7		Reverb_PreDelay
+Map	encoder8		Reverb_Amount
+
+Map	fader1		Amp_Attack
+Map	fader2		Amp_Decay
+Map	fader3		Amp_Sustain
+Map	fader4		Amp_Release
+
+Map	lcd-1		"Humana"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Audiomatic
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Input Gain
+Map	encoder2		Transform
+Map	encoder3		Dry Wet
+
+Map	fader4		Volume
+
+Map	lcd-1		"Audiomatic"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Sweeper
+
+Map	encoder1		Freq
+Map	encoder2		Feedback
+Map	encoder3		LFO Wave
+Map	encoder4		LFO Rate
+Map	encoder5		Rate Mod
+Map	encoder6		DryWet
+Map	encoder7		Spread
+Map	encoder8		Volume
+
+Map	fader1		LFO Freq Mod
+Map	fader2		Env Freq Mod
+Map	fader3		LFO Amp Mod
+Map	fader4		Env Amp Mod
+
+Map	lcd-1		"Sweeper"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Quartet
+
+Map	encoder1		BBD Delay
+Map	encoder2		BBD Depth
+Map	encoder3		BBD Rate
+Map	encoder4		BBD Noise
+Map	encoder5		BBD Width
+Map	encoder6		BBD DryWet
+Map	encoder7		"Not mapped"
+Map	encoder8		"Not mapped"
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	lcd-1		"Quartet"   
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Gain
+Map	fader2		Bass
+Map	fader3		Mid
+Map	fader4		Treble
+
+Map	encoder1		Gate
+Map	encoder2		Poweramp Gain
+Map	encoder3		Amp Switch
+Map	encoder4		Cab Switch
+Map	encoder5		"Not mapped"			
+Map	encoder6		"Not mapped"			
+Map	encoder7		"Not mapped"			
+Map	encoder8		Volume
+
+Map	lcd-1		"Softube Amp"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Drive			
+Map	fader2		Bass			
+Map	fader3		Middle			
+Map	fader4		Treble			
+
+Map	encoder1		"Not mapped"			
+Map	encoder2		"Not mapped"			
+Map	encoder3		"Not mapped"			
+Map	encoder4		"Not mapped"			
+Map	encoder5		"Not mapped"			
+Map	encoder6		"Not mapped"			
+Map	encoder7		"Not mapped"			
+Map	encoder8		Volume			
+
+Map	lcd-1		"Softube Bass Amp"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Synchronous
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Enabled			
+Map	fader2		Level			
+Map	fader3		DryWet			
+Map	fader4		Master Level			
+
+Map	encoder1		Dist Amount			
+Map	encoder2		Dist Character			
+Map	encoder3		Filter Freq			
+Map	encoder4		Filter Reso			
+Map	encoder5		Delay Time			
+Map	encoder6		Delay Feedback			
+Map	encoder7		Reverb Amount			
+Map	encoder8		Reverb Decay			
+
+Map	lcd-1		"Synchronous"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.MasterCompressor
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Threshold			
+Map	fader2		Ratio			
+Map	fader3		Attack			
+Map	fader4		Release			
+
+Map	encoder1		Input Gain			
+Map	encoder2		Make-Up Gain			
+Map	encoder3		Mix			
+Map	encoder4		"Not mapped"			
+Map	encoder5		"Not mapped"			
+Map	encoder6		"Not mapped"			
+Map	encoder7		"Not mapped"			
+Map	encoder8		"Not mapped"			
+
+Map	lcd-1		"Master Bus Comp"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ChannelDynamics
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Gate Range			
+Map	fader2		Gate Hold			
+Map	fader3		Gate Threshold			
+Map	fader4		Gate Release			
+
+Map	encoder1		Input Gain			
+Map	encoder2		Comp Ratio			
+Map	encoder3		Comp Threshold			
+Map	encoder4		Comp Release			
+Map	encoder5		"Not mapped"			
+Map	encoder6		"Not mapped"			
+Map	encoder7		"Not mapped"			
+Map	encoder8		Mix			
+
+Map	lcd-1		"Channel Dynamics"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ChannelEQ
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		"Not mapped"			
+Map	fader2		"Not mapped"			
+Map	fader3		"Not mapped"			
+Map	fader4		"Not mapped"			
+
+Map	encoder1		LF Gain			
+Map	encoder2		LF Frequency			
+Map	encoder3		LMF Gain			
+Map	encoder4		LMF Frequency			
+Map	encoder5		HMF Gain			
+Map	encoder6		HMF Frequency			
+Map	encoder7		HF Gain			
+Map	encoder8		HF Frequency			
+
+Map	lcd-1		"Channel Equalizer"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.BVXVocoder
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Env Attack			
+Map	fader2		Env Decay			
+Map	fader3		Env Sustain			
+Map	fader4		Env Release			
+
+Map	encoder1		Formant Shift			
+Map	encoder2		Wave Shape			
+Map	encoder3		Vibrato Rate			
+Map	encoder4		LFO Rate			
+Map	encoder5		Modulator Mix			
+Map	encoder6		Carrier Mix			
+Map	encoder7		Vocoder Mix			
+Map	encoder8		Master Volume			
+
+Map	lcd-1		"BV-X"
+//Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Polar
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Envelope Attack			
+Map	fader2		Envelope Decay			
+Map	fader3		Envelope Sustain			
+Map	fader4		Envelope Release			
+
+Map	encoder1		Delay/Buffer Position			
+Map	encoder2		Shifter 1 Semi			
+Map	encoder3		Shifter 2 Semi			
+Map	encoder4		LFO Rate Synced			
+Map	encoder5		Dry Level			
+Map	encoder6		Shifter 1 Level			
+Map	encoder7		Shifter 2 Level			
+Map	encoder8		Filter Frequency			
+
+Map	lcd-1		"Polar"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Rotor
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Drive Type			
+Map	fader2		Slow Fast			
+Map	fader3		Slow Speed			
+Map	fader4		Fast Speed			
+
+Map	encoder1		Drive
+Map	encoder2		X-Over Frequency
+Map	encoder3		Acceleration
+Map	encoder4		Doppler
+Map	encoder5		Blend
+Map	encoder6		Distance
+Map	encoder7		Dry Wet
+Map	encoder8		Volume
+
+Map	lcd-1		"Rotor"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Algoritm
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Unison Timing			
+Map	fader2		Unison Detune			
+Map	fader3		Unison Spread			
+Map	fader4		Unison Blend			
+
+Map	encoder1		FM Amount Offset			
+Map	encoder2		Decay/Release Offset			
+Map	encoder3		FM Key Scale			
+Map	encoder4		Rate Key Scale			
+Map	encoder5		Portamento			
+Map	encoder6		Portamento Mode			
+Map	encoder7		Feedback			
+Map	encoder8		Master			
+
+Map	lcd-1		"Algoritm"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Complex
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Attack			
+Map	fader2		Decay			
+Map	fader3		Sustain			
+Map	fader4		Release			
+
+Map	encoder1		Osc 1 Pitch
+Map	encoder2		Osc 1 Tune
+Map	encoder3		Osc 1 Shape
+Map	encoder4		Osc Mix
+Map	encoder5		Osc 2 Pitch
+Map	encoder6		Osc 2 Tune
+Map	encoder7		Osc 2 Shape
+Map	encoder8		Master Level
+
+Map	lcd-1		"Complex-1"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Friktion
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		EQ Lo Gain
+Map	fader2		EQ Parametric Freq
+Map	fader3		EQ Parametric Gain
+Map	fader4		EQ Hi Gain
+
+Map	encoder1		Bow Accent
+Map	encoder2		Bow Pressure
+Map	encoder3		Bow Position
+Map	encoder4		Glide Time
+Map	encoder5		Pluck Level
+Map	encoder6		Pluck Noise
+Map	encoder7		Pluck Position
+Map	encoder8		Master Level
+
+Map	lcd-1		"Friktion"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.layers
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		GL_Delay_TimeSec
+Map	encoder2		GL_Reverb_PreDelay
+Map	encoder3		GL_Reverb_Time
+Map	encoder4		Comp_Amount
+Map	encoder5		GL_Delay_Fb
+Map	encoder6		GL_Reverb_Damp
+Map	encoder7		GL_Reverb_LowCut
+Map	encoder8		Main_Volume
+
+Map	lcd-1		"Layers"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.layers_wave_edition
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		GL_Delay_TimeSec
+Map	encoder2		GL_Reverb_PreDelay
+Map	encoder3		GL_Reverb_Time
+Map	encoder4		Comp_Amount
+Map	encoder5		GL_Delay_Fb
+Map	encoder6		GL_Reverb_Damp
+Map	encoder7		GL_Reverb_LowCut
+Map	encoder8		Main_Volume
+
+Map	lcd-1		"Layers Wave"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ProcessedPianos
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		EQ_LowGain
+Map	fader2		EQ_LoMidGain
+Map	fader3		EQ_HiMidGain
+Map	fader4		EQ_HiGain
+
+Map	encoder1		EQ_LowFreq
+Map	encoder2		EQ_LoMidFreq
+Map	encoder3		EQ_LoMidQ
+Map	encoder4		Clean_Level
+Map	encoder5		EQ_HiFreq
+Map	encoder6		EQ_HiMidFreq
+Map	encoder7		EQ_HiMidQ
+Map	encoder8		InsertFX_Level
+
+Map	lcd-1		"Processed Pianos"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.RadicalKeys
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		EQ Lo Gain
+Map	fader2		EQ Mid Gain
+Map	fader3		EQ Hi Gain
+Map	fader4		EQ Pre Overdrive
+
+Map	encoder1		Character
+Map	encoder2		Instrument Blend
+Map	encoder3		Master Volume
+Map	encoder4		Ambience Level
+Map	encoder5		Env Attack
+Map	encoder6		Env Decay Curve
+Map	encoder7		Env Release
+Map	encoder8		Ambience Type
+
+Map	lcd-1		"Radical Keys"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.RDK
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		bd_mix_vol
+Map	fader2		sd_mix_vol
+Map	fader3		hh_mix_vol
+Map	fader4		mst_mix_vol
+
+Map	encoder1		bd_rvb_send
+Map	encoder2		sd_rvb_send
+Map	encoder3		hh_rvb_send
+Map	encoder4		oh_mix_vol
+Map	encoder5		mst_rvb_ret
+Map	encoder6		oh_mix_width
+Map	encoder7		am_mix_width
+Map	encoder8		am_mix_vol
+
+Map	lcd-1		"Drum Kits"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ElectricBass
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Reamp Gain
+Map	fader2		Reamp Bass
+Map	fader3		Reamp Mid
+Map	fader4		Reamp Treble
+
+Map	encoder1		Volume
+Map	encoder2		Compressor Level
+Map	encoder3		Drive Dist Dist
+Map	encoder4		Chorus Rate
+Map	encoder5		EQ Gain
+Map	encoder6		Compressor Attack
+Map	encoder7		Drive Dist Level
+Map	encoder8		Chorus Level
+
+Map	lcd-1		"Electric Bass"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.ScenicHybrid
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		EA_Frequency
+Map	fader2		EB_Frequency
+Map	fader3		EA_Resonance
+Map	fader4		EB_Resonance
+
+Map	encoder1		EA_Start_Pos
+Map	encoder2		EA_Pitch
+Map	encoder3		Macro1
+Map	encoder4		Macro2
+Map	encoder5		EB_Start_Pos
+Map	encoder6		EB_Pitch
+Map	encoder7		Macro3
+Map	encoder8		MasterFX_Volume
+
+Map	lcd-1		"Scenic Hybrid"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Umpf
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Drum_1_Volume
+Map	fader2		Drum_2_Volume
+Map	fader3		Drum_3_Volume
+Map	fader4		Drum_4_Volume
+
+Map	encoder1		Drum_1_Pitch
+Map	encoder2		Drum_2_Pitch
+Map	encoder3		Drum_3_Pitch
+Map	encoder4		Drum_4_Pitch
+Map	encoder5		Drum_5_Pitch
+Map	encoder6		Drum_6_Pitch
+Map	encoder7		Drum_7_Pitch
+Map	encoder8		Master_Volume
+
+Map	lcd-1		"Umpf Club"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.UmpfRetroBeats
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		Drum_1_Volume
+Map	fader2		Drum_2_Volume
+Map	fader3		Drum_3_Volume
+Map	fader4		Drum_4_Volume
+
+Map	encoder1		Drum_1_Pitch
+Map	encoder2		Drum_2_Pitch
+Map	encoder3		Drum_3_Pitch
+Map	encoder4		Drum_4_Pitch
+Map	encoder5		Drum_5_Pitch
+Map	encoder6		Drum_6_Pitch
+Map	encoder7		Drum_7_Pitch
+Map	encoder8		Master_Volume
+
+Map	lcd-1		"Umpf Retro"
+Map	lcd-2		Patch Name
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Pulsar
+//Define Group	Group	TempGroup1	TempGroup2
+
+Map	fader1		LFO1 Env Rate
+Map	fader2		LFO1 Env Level
+Map	fader3		LFO2 Env Rate
+Map	fader4		LFO2 Env Level
+
+Map	encoder1		LFO1 Rate Synced
+Map	encoder2		LFO1 Level
+Map	encoder3		LFO1 Lag
+Map	encoder4		Attack
+Map	encoder5		LFO2 Rate Synced
+Map	encoder6		LFO2 Level
+Map	encoder7		LFO2 Lag
+Map	encoder8		Release
+
+Map	lcd-1		"Pulsar"
+Map	lcd-2		Device Name
+
+
+Scope	Propellerhead Software	se.propellerheads.Objekt			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	encoder1		Impact Freq
+Map	encoder2		Noise Rate
+Map	encoder3		Obj 1 Decay
+Map	encoder4		Obj 1 Damping Hi Freq
+Map	encoder5		Obj 1 Damping Hi Slope
+Map	encoder6		Obj 2 Decay			
+Map	encoder7		Obj 2 Damping Hi Freq		
+Map	encoder8		Obj 2 Damping Hi Slope			
+
+Map	fader1		Modal Mix Level	
+Map	fader2		Obj 1 Mix Level
+Map	fader3		Obj 2 Mix Level	
+Map	fader4		Master Volume
+
+Map	lcd-1		"Objekt"
+Map	lcd-2		Device Name
+
+
+//Stock & R+ mapping end
+
+
+
+Scope	Arturia	vst.Alav.Analog Lab V		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		Master Bass
+Map	fader2		Master Mid
+Map	fader3		Master Treble
+Map	fader4		Master	
+
+Map	encoder1		P1 Brightness	
+Map	encoder2		P1 Timbre		
+Map	encoder3		P1 Time		
+Map	encoder4		P1 Movement
+Map	encoder5		P1 Param2		
+Map	encoder6		Phaser Mix		
+Map	encoder7		Delay Volume		
+Map	encoder8		Reverb Volume
+
+Map	lcd-1		"Analog Lab V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.ARP3		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		P1 Brightness	
+Map	encoder2		P1 Timbre		
+Map	encoder3		P1 Time		
+Map	encoder4		P1 Movement
+Map	encoder5		P1 Param2		
+Map	encoder6		Phaser Mix		
+Map	encoder7		Delay Volume		
+Map	encoder8		Reverb Volume
+
+Map	lcd-1		"ARP 2600 V3"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.AStr	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Augmented STRINGS"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.AVcs		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Augmented VOICES"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.TnW2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"B-3 V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.BuEa		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Buchla Easel V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Clav		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Clavinet V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.CMIv		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"CMI V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.CSV4		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"CS-80 V4"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.CsCz		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"CZ V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Dx71		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"DX7 V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Emu1	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Emulator II V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Farf		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Farfisa V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Jun1	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Jun-6 V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.JUP4		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Jup-8 V4"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.KMSV		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"KORG MS-20 V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Mat2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Matrix-12 V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.MLTN		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Mellotron V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Min3		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Mini V3"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.MOD3		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Modular V3"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.OBXa		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"OP-Xa V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Pia3.Piano V3	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		Drive
+Map	fader2		Reverb Dry/Wet
+Map	fader3		Harmonics
+Map	fader4		Master Volume
+
+Map	encoder1		Brightness		
+Map	encoder2		Timbre		
+Map	encoder3		Dynamics_2		
+Map	encoder4		St. Width
+Map	encoder5		Hammer Hardness		
+Map	encoder6		Hammer Position		
+Map	encoder7		Age	
+Map	encoder8		Ambient Mics
+
+Map	lcd-1		"Piano V3"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.PRO5		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Prophet-5 V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.PRVS		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Prophet-VS V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.OBS2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"SEM V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Sol2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Solina V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.SQ80		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"SQ80 V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Stg2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Stage-73 V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Sycl	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Synclavier V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.SNTY
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Synthi V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Voco
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Vocoder V"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Vox2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"	
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Vox Continental V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.WUR2		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		"Not mapped"
+
+Map	encoder1		"Not mapped"	
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"			
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"
+
+Map	lcd-1		"Wurli V2"
+Map	lcd-2		Device Name
+
+
+
+Scope	Arturia	vst.Kat1		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	fader1		"Not mapped"
+Map	fader2		"Not mapped"
+Map	fader3		"Not mapped"
+Map	fader4		Master	
+
+Map	encoder1		"Not mapped"		
+Map	encoder2		"Not mapped"		
+Map	encoder3		"Not mapped"		
+Map	encoder4		"Not mapped"
+Map	encoder5		"Not mapped"		
+Map	encoder6		"Not mapped"		
+Map	encoder7		"Not mapped"		
+Map	encoder8		"Not mapped"	
+
+Map	lcd-1		"Pigments"
+Map	lcd-2		Device Name

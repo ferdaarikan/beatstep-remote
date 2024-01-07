@@ -1,0 +1,17 @@
+version={1,0,1}
+
+function remote_supported_control_surfaces()
+	local surfaces = {
+		{ 
+			manufacturer="Arturia", model="BeatStep",
+			source="BeatStep.lua", picture="BeatStep.png", 
+			in_ports={{description="In Port"}},
+			out_ports={{description="Out Port", optional=true}},
+			has_keyboard=true, 
+			setup_info_text="Reason Remote Integration scripts for Arturia BeatStep\nIn Port : BeatStep MIDI\nOut Port : BeatStep MIDI",
+			setup_user_action_text="Reason Remote scripts for Arturia BeatStep, version 1.0 - by AFA - 2024\nPlease, select the DAW mode (Shift + Pad3)"
+		},
+	}	
+	return surfaces
+end
+
