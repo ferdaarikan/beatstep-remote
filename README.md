@@ -1,8 +1,8 @@
 # beatstep-remote
-Contains Reason remote codec and mapping for Arturia BeatStep midi controller. 
+Contains Reason remote codec and mapping for ```Arturia BeatStep``` midi controller. 
 
-BeatStep is a device full of features but I was frustrated that there was no built-in support for the hardware in Reason. BeatStep can be used as a sequencer, midi controller using 16 infinite knobs and 16 touch sensitive drum pads to play instruments.
-It was a disappointment to not being able to fully utilise the BeatStep. I derived the files in this repository from two of the built-in Arturia mappings. I removed a lot of the existing lua code and functions which didn't seem useful for the BeatStep. 
+```BeatStep``` is a device full of features but I was frustrated that there was no built-in support for the hardware in Reason. BeatStep can be used as a sequencer, midi controller using 16 infinite knobs and 16 touch sensitive drum pads to play instruments.
+It was a disappointment to not being able to fully utilise the BeatStep. I derived the files in this repository from two of the built-in Arturia mappings. I removed a lot of the existing lua code and functions which didn't seem useful for the BeatStep. Still mapping and codec files need cleaning but at this state works fine, unused definitions will be gradually removed.
 
 ![image](https://github.com/ferdaarikan/beatstep-remote/assets/13984102/58e9b1eb-f866-40b6-94eb-67609df67b41)
 
