@@ -11,7 +11,7 @@
 -- CC (dec)	114	18	19	16	17	91	79	72
 -- CC(hex)	72	12	13	10	11	5B	4F	48
 
--- 0A	
+-- 0A	preset
 -- 4A	cut
 -- 47	reso
 -- 4C	lforate
