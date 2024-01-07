@@ -13,7 +13,7 @@ It was a disappointment to not being able to fully utilise the BeatStep. I deriv
 - ```Start``` and ```Play``` buttons can control Reason
 - ```Volume``` knob controls the Master Volume
 - All the knobs can be mapped to Reason
-- Default knob mappings are listed below.
+- Default knob names are listed below. For most devices mappings are inline with knob names. 
 
 I tried to keep the Arturia naming for knobs as much as I can though I am open to any new naming suggestions. Currently knobs are named as below. Probably you won't see those names unless you are experimenting with the ```.remotemap``` file.
 
@@ -37,3 +37,4 @@ You can follow any of the Reason standard codec/remotemap installation steps. Th
 14)	delay
 15)	sus1
 16)	rel1
+Volume) volume
