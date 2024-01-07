@@ -6,6 +6,7 @@ It was a disappointment to not being able to fully utilise the BeatStep. I deriv
 
 ![image](https://github.com/ferdaarikan/beatstep-remote/assets/13984102/58e9b1eb-f866-40b6-94eb-67609df67b41)
 
+<sub>image credit: [MusicMatter](https://www.musicmatter.co.uk)</sub>
 
 ### Currenty supported functions (```CNTRL``` mode)
 - Autodetect is supported, no more manual adding your BeatStep to Reason
