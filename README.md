@@ -12,3 +12,19 @@ It was a disappointment to not being able to fully utilise the BeatStep. I deriv
 
 I tried to keep the Arturia naming for knobs as much as I can though I am open to any new naming suggestions. Currently knobs are named as below. Probably you won't see those names unless you are experimenting with the ```.remotemap``` file.
 
+1)  preset	
+2)	cut
+3)  reso
+4)	lforate
+5)	lfoamt
+6)	chorus
+7)	atk1
+8)	dec1
+9)	preset
+10)	param1
+11) param2
+12)	param3
+13)	param4
+14)	delay
+15)	sus1
+16)	rel1
